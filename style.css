@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: tahoma;
+}
+.mainDiv{
+    column-width: 100%;
+    height: 490px;
+    background-image: linear-gradient(to right, #FE6F2D,#F84058);
+    
+}
+.title{
+    margin-left: 100px;
+    position: relative;
+    top: 5.5%;
+    color: white;
+    font-family: tahoma;
+    font-size: 2em;
+    font-weight: bold;
+}
+.icon{
+    height: 30px;
+    color: white;
+    position: relative;
+    right: 12.8%;
+}
+.text{
+        //background: black;
+    width: 50%;
+    height: 66%;
+    position: relative;
+    left: 5%;
+    margin-top: 103px;
+}
+.text2{
+    color: white;
+    position: relative;
+    font-size: 2em;
+    margin-left: 12px;
+    
+}
+.text3{
+    color: white;
+    position: relative;
+    //font-size: 2em;
+    margin-left: 12px;
+    top: 10%
+    
+}
+.button{
+    position: relative;
+    bottom: 100px;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    //padding: 10px;
+}
+.brand{
+    //background: #cccccc;
+    width: 492px;
+    height: 429px;
+    position: relative;
+    bottom: 93%;
+    left: 38%;
+    transform: rotate(90deg)
+}
+.menu{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    //background: black;
+    bottom: 900px;
+    //display: inline-block;
+    margin-left: 920px;
+    //margin: 10px;
+    margin-top: 20px
+    
+}
+a:hover{
+    background: white;
+    color: black;
+    transition: .4s;
+    
+}
+.content{
+    /background: black;
+    width: 300px;
+    height: 220px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    left: 18%;
+    transform: translateX(-25%);
+    border: 2px solid #D4D6D8; 
+}
+.content span{
+    color: #F84058;
+    font-size: 2em;
+    padding: 10px
+}
+.content p{
+    color: #FE6F2D;
+    margin-top: 60px;
+    font: 1px;
+}
